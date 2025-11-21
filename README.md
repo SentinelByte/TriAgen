@@ -22,9 +22,7 @@ TriAgen automates early-stage alert triage:
 
 ## System Overview
 
-```
-Alert → Alert Processor → Enrichment Engine → Reasoning Agent → Response Recommender → Output + Audit Logs
-```
+***Alert → Alert Processor → Enrichment Engine → Reasoning Agent → Response Recommender → Output + Audit Logs***
 
 ### Main Components
 
@@ -228,5 +226,5 @@ triagen/
 └─ examples/
 ```
 
-*SentinelByte | AI Agent | 2025*
+### *SentinelByte | AI Agent | 2025*
 ---
