@@ -7,7 +7,7 @@ Designed for security engineers who want a small, modular, testable triage engin
 
 ---
 
-## 1. Core Purpose
+## Core Purpose
 
 TriAgen automates early-stage alert triage:
 
@@ -20,7 +20,7 @@ TriAgen automates early-stage alert triage:
 
 ---
 
-## 2. System Overview
+## System Overview
 
 ```
 Alert → Alert Processor → Enrichment Engine → Reasoning Agent → Response Recommender → Output + Audit Logs
@@ -75,7 +75,7 @@ Stores:
 
 ---
 
-## 3. Supported Input Methods
+## Supported Input Methods
 
 TriAgen can receive alerts in **three ways**:
 
@@ -123,7 +123,7 @@ API returns the full triage result.
 
 ---
 
-## 4. Minimal Alert Format
+## Minimal Alert Format
 
 TriAgen expects at least:
 
@@ -142,7 +142,7 @@ Fields may vary by alert type.
 
 ---
 
-## 5. Output Format
+## Output Format
 
 TriAgen produces:
 
@@ -175,7 +175,7 @@ Confidence: 92%
 
 ---
 
-## 6. Execution Flow
+## Execution Flow
 
 1. Receive alert
 2. Normalize alert
@@ -187,7 +187,7 @@ Confidence: 92%
 
 ---
 
-## 7. Local Testing Features
+## Local Testing Features
 
 TriAgen supports local testing through:
 
@@ -201,7 +201,7 @@ Everything stays local and isolated.
 
 ---
 
-## 8. Project Roadmap
+## Project Roadmap
 
 * Add more enrichment modules
 * Add Windows/Mac support
@@ -212,7 +212,7 @@ Everything stays local and isolated.
 
 ---
 
-## 9. Folder Structure
+## Folder Structure
 
 ```
 triagen/
@@ -228,4 +228,5 @@ triagen/
 └─ examples/
 ```
 
+*SentinelByte | AI Agent | 2025*
 ---
